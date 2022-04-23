@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.11.0/build/cssnormalize/cssnormalize-min.css">
+  <link rel="stylesheet" href="users.css">
+  <title>Users</title>
+</head>
+<body>
+  <navbar class="main-nav">
+    <a href="/users" class="users active">Users</a>
+    <a href="/create" class="create">Create User</a>
+  </navbar>
+  <div class="get-users">Get users</div>
+  <section class="table-wrapper">
+    <table class="users-table">
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+      </tr>
+      <tbody class="users-table-body"></tbody>
+    </table>
+  </section>
+  <div class="loader">
+    <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+  </div>
+<script src="users.js"></script>
+</body>
+</html>

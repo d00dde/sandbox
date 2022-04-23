@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.11.0/build/cssnormalize/cssnormalize-min.css">
+  <link rel="stylesheet" href="create.css">
+  <title>Create user</title>
+</head>
+<body>
+  <navbar class="main-nav">
+    <a href="/users" class="users">Users</a>
+    <a href="/create" class="create active">Create User</a>
+  </navbar>
+  <section class="create-form">
+    <div class="form-wrapper">
+      <input type="text" class="name" placeholder="Name">
+      <input type="text" class="email" placeholder="Email">
+      <input type="text" class="phone" placeholder="Phone">
+      <div class="submit-btn">Create</div>
+    </div>
+  </section>
+  <div class="loader">
+    <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+  </div>
+  <div class="success">Пользователь создан.</div>
+  <div class="error">Произошла ошибка.</div>
+<script src="create.js"></script>
+</body>
+</html>
